@@ -62,7 +62,7 @@ export default function Component() {
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Hello, I&apos;m Helen!</h2>
             <p className="mt-4 max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              I am on a journey of learning everything Web3 nd DevRel. 
+              I am on a journey of learning everything Web3 and DevRel. 
               Here you can find some previous projects of mine and the various things I&apos;m interested in! 
               Please note that this website is in flux as I continue to learn and add to it.
             </p>
@@ -78,7 +78,7 @@ export default function Component() {
                     alt="Project preview"
                     className="aspect-video overflow-hidden rounded-t-lg object-cover"
                     height="200"
-                    src="/placeholder.svg"
+                    src="https://arweave.net/L6hx-Pdk7TaKxolRRsNPMxOE4vTkmxZLJzbTgZsif-E"
                     width="400"
                   />
                   <div className="p-4">
