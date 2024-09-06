@@ -60,10 +60,10 @@ export default function Component() {
         </section>
         <section id="about" className="w-full py-12 md:py-24 lg:py-32 bg-gray-100">
           <div className="container px-4 md:px-6">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Hello, I'm Helen!</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Hello, I&apos;m Helen!</h2>
             <p className="mt-4 max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               I am on a journey of learning everything Web3 nd DevRel. 
-              Here you can find some previous projects of mine and the various things I'm interested in! 
+              Here you can find some previous projects of mine and the various things I&apos;m interested in! 
               Please note that this website is in flux as I continue to learn and add to it.
             </p>
           </div>
