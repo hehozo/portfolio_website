@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Github, Linkedin, Mail, Twitter } from "lucide-react"
+import { Github2, Linkedin, Mail, X } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -38,7 +38,7 @@ export default function Component() {
                   Helen Feeney
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-400 md:text-xl">
-                  Agile Business Analyst | Technical Writer | Open Source Contributor
+                  Business Analyst | Technical Writer | Open Source Contributor
                 </p>
               </div>
               <div className="space-x-4">
@@ -64,7 +64,7 @@ export default function Component() {
             <p className="mt-4 max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               I am on a journey of learning everything Web3 and DevRel. 
               Here you can find some previous projects of mine and the various things I&apos;m interested in! 
-              Please note that this website is in flux as I continue to learn and add to it.
+              Please note that this website will be in flux as I continue to learn and add to it.
             </p>
           </div>
         </section>
@@ -118,7 +118,7 @@ export default function Component() {
                 </p>
                 <div className="flex space-x-4">
                   <Link href="#" className="text-gray-500 hover:text-gray-600">
-                    <Github className="h-6 w-6" />
+                    <Github2 className="h-6 w-6" />
                     <span className="sr-only">Github</span>
                   </Link>
                   <Link href="#" className="text-gray-500 hover:text-gray-600">
@@ -126,8 +126,8 @@ export default function Component() {
                     <span className="sr-only">LinkedIn</span>
                   </Link>
                   <Link href="#" className="text-gray-500 hover:text-gray-600">
-                    <Twitter className="h-6 w-6" />
-                    <span className="sr-only">Twitter</span>
+                    <X className="h-6 w-6" />
+                    <span className="sr-only">X</span>
                   </Link>
                   <Link href="#" className="text-gray-500 hover:text-gray-600">
                     <Mail className="h-6 w-6" />
