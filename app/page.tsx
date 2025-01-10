@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Github, Linkedin, Mail, Twitter } from "lucide-react"
+import { Github2, Linkedin, Mail, X } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -117,19 +117,19 @@ export default function Component() {
                   Feel free to reach out to me for any inquiries or collaboration opportunities.
                 </p>
                 <div className="flex space-x-4">
-                  <Link href="#" className="text-gray-500 hover:text-gray-600">
-                    <Github className="h-6 w-6" />
+                  <Link href="https://github.com/hehozo" className="text-gray-500 hover:text-gray-600">
+                    <Github2 className="h-6 w-6" />
                     <span className="sr-only">Github</span>
                   </Link>
-                  <Link href="#" className="text-gray-500 hover:text-gray-600">
+                  <Link href="https://www.linkedin.com/in/hfeeney/" className="text-gray-500 hover:text-gray-600">
                     <Linkedin className="h-6 w-6" />
                     <span className="sr-only">LinkedIn</span>
                   </Link>
-                  <Link href="#" className="text-gray-500 hover:text-gray-600">
-                    <Twitter className="h-6 w-6" />
-                    <span className="sr-only">Twitter</span>
+                  <Link href="https://x.com/sailorboon" className="text-gray-500 hover:text-gray-600">
+                    <X className="h-6 w-6" />
+                    <span className="sr-only">X</span>
                   </Link>
-                  <Link href="#" className="text-gray-500 hover:text-gray-600">
+                  <Link href="mailto:feeneyha@gmail.com" className="text-gray-500 hover:text-gray-600">
                     <Mail className="h-6 w-6" />
                     <span className="sr-only">Email</span>
                   </Link>
