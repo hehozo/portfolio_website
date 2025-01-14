@@ -38,7 +38,7 @@ export default function Component() {
                   Helen Feeney
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-400 md:text-xl">
-                  Agile Business Analyst | Technical Writer | Open Source Contributor
+                  Business Analyst | Technical Writer | Open Source Contributor
                 </p>
               </div>
               <div className="space-x-4">
@@ -64,7 +64,7 @@ export default function Component() {
             <p className="mt-4 max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               I am on a journey of learning everything Web3 and DevRel. 
               Here you can find some previous projects of mine and the various things I&apos;m interested in! 
-              Please note that this website is in flux as I continue to learn and add to it.
+              Please note that this website will be in flux as I continue to learn and add to it.
             </p>
           </div>
         </section>
