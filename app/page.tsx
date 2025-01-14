@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Github2, Linkedin, Mail, X } from "lucide-react"
+import { Github, Linkedin, Mail, X } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -118,7 +118,7 @@ export default function Component() {
                 </p>
                 <div className="flex space-x-4">
                   <Link href="https://github.com/hehozo" className="text-gray-500 hover:text-gray-600">
-                    <Github2 className="h-6 w-6" />
+                    <Github className="h-6 w-6" />
                     <span className="sr-only">Github</span>
                   </Link>
                   <Link href="https://www.linkedin.com/in/hfeeney/" className="text-gray-500 hover:text-gray-600">
